@@ -3,4 +3,4 @@ const paul = "Paul"
 const george = "George"
 const ringo = "Ringo"
 
-console.log(module)
+module.exports = { john, paul }
