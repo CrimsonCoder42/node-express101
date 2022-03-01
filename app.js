@@ -1,5 +1,9 @@
-console.log(__dirname);
+const john = "john";
+const peter = "peter"; 
 
-setInterval(() => {
-    console.log(`hello world`)
-}, 1000)
+
+const sayHi = (name) => {
+    console.log(`Hello there ${name}`)
+};
+
+sayHi(john)
